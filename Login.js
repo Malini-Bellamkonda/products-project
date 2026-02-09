@@ -8,7 +8,7 @@ document.getElementById("formContainer").addEventListener("submit", function(e){
 
     if(storedData && storedData.email == email && storedData.password == password){
         alert("Login Successful");
-        window.location.href = "index.html"; // Redirect to home page
+        window.location.href = "home.html"; // Redirect to home page
     } else {
         alert("Enter a valid Credential!!!");
     }
